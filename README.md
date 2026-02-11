@@ -14,7 +14,7 @@ O programa irá conferir a resposta. Se a reposta estiver correta, irá mostrar 
 ## Estrutura do Projeto
 - `main.py` → Arquivo principal com a lógica do programa.
 - `README.md` → Documentação completa do projeto.
-- `Oráculo Financeiro.drawio.png` → Imagem do fluxograma da aplicação.
+- `Fluxograma-Quiz-Python.drawio` → Imagem do fluxograma da aplicação.
 
 ## Como Executar o Projeto
 1.  Certifique-se de ter o **Python 3.x** instalado.
