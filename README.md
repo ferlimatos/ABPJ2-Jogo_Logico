@@ -20,12 +20,7 @@ Este projeto foi desenvolvido como prática de lógica de programação e fundam
 - Ler a resposta do usuário
 - Conferir se está certa
 - Somar pontos
-
-## Estrutura do Projeto
-
-`main.py` → Arquivo principal com a lógica do programa.
-`README.md` → Documentação completa do projeto.
-`Fluxograma-Quiz-Python.drawio` → Imagem do fluxograma da aplicação.
+- Mostrar se o usuário fez a pontuação o suficiente para ser aprovado, reprovado ou estará de recuperação.
 
 ## Lógica e Variáveis
 
@@ -43,6 +38,8 @@ O sistema utiliza as seguintes variáveis para o processamento:
 ## Fluxograma do Projeto:
 
 Para facilitar a compreensão do sistema, elaborei este fluxograma que detalha o caminho que a informação percorre:
+
+![Fluxograma](Fluxograma-Quiz-Python.drawio.png)
 
 ## Aprendizados
 
