@@ -7,7 +7,7 @@ O Quiz Python é um programa de perguntas e respostas sobre conceitos básicos d
 ### 🎯 Sistema de Pontuação
 
 - 80 pontos ou mais → Aprovado
-- 40 a 60 pontos → Recuperação
+- 40 a 79 pontos → Recuperação
 - 20 pontos ou menos → Reprovado
 - Pontuação máxima: 100 pontos
 
@@ -15,43 +15,35 @@ Este projeto foi desenvolvido como prática de lógica de programação e fundam
 
 ## Funcionalidades
 
-- Guardar as perguntas, alternativas e a resposta correta
-- Mostrar a pergunta na tela
-- Ler a resposta do usuário
-- Conferir se está certa
-- Somar pontos
-- Mostrar se o usuário fez a pontuação o suficiente para ser aprovado, reprovado ou estará de recuperação.
+- Escalabilidade: Perguntas armazenadas em estruturas de dicionários.
+- Automação: Processamento automático de perguntas e alternativas via loops.
+- Feedback em Tempo Real: Informa se o usuário acertou ou errou imediatamente após cada resposta.
+- Normalização de Dados: Tratamento de entradas (maiusculas/minusculas) para evitar erros de digitação.
 
 ## Lógica e Variáveis
 
-O sistema utiliza as seguintes variáveis para o processamento:
+O sistema foi otimizado para não utilizar variáveis isoladas para cada resposta. Agora, utilizamos:
 | Variável | Descrição | Tipo de Dado |
 | :--- | :--- | :--- |
-| `pontuacao` | Armazena a pontuação acumulada do usuário durante o quiz | `int` |
+| `perguntas` | Lista contendo dicionários com enunciado, opções e resposta correta | `list[dict]` |
 | `pontuacao_mínima` | Define a pontuação mínima necessária para aprovação | `int` |
-| `resposta_1` | Recebe a resposta da questão 1 do usuário | `str` |
-| `resposta_2` | Recebe a resposta da questão 2 do usuário | `str` |
-| `resposta_3` | Recebe a resposta da questão 3 do usuário | `str` |
-| `resposta_4` | Recebe a resposta da questão 4 do usuário | `str` |
-| `resposta_5` | Recebe a resposta da questão 5 do usuário | `str` |
+| `pontuacao` | Acumulador de pontos do usuário | `int` |
+| `pergunta` | Variável de controle do laço que representa a questão atual | `iterator` |
 
 ## Fluxograma do Projeto:
 
-Para facilitar a compreensão do sistema, elaborei este fluxograma que detalha o caminho que a informação percorre:
+O fluxo agora conta com uma estrutura de repetição que valida cada pergunta antes de seguir para o resultado final:
 
 ![Fluxograma](Fluxograma-Quiz-Python.drawio.png)
 
 ## Aprendizados
 
-Durante o desenvolvimento deste projeto, foram praticados e compreendidos os seguintes conceitos:
+Nesta versão refatorada, os principais conceitos aplicados foram:
 
-- Manipulação de variáveis e operadores de atribuição (+=)
-- Estruturas condicionais (if, elif, else)
-- Uso do método .upper() para padronizar entradas do usuário
-- Uso de \n para quebra de linha em strings
-- Organização lógica do programa por meio de fluxograma
-- Estruturação de regras de pontuação
-- Compreensão de operadores lógicos (>=, <, or)
+- Estruturas de Dados Compostas: Uso de listas e dicionários para organizar informações.
+- Laços de Repetição (for loops): Automação da exibição de perguntas e validação de respostas.
+- Clean Code: Redução de repetição de código (substituindo múltiplos inputs por um único laço).
+- F-strings: Formatação moderna de strings para exibição de resultados e variáveis.
 
 ## Como Executar o Projeto
 
@@ -64,6 +56,7 @@ Durante o desenvolvimento deste projeto, foram praticados e compreendidos os seg
 
 - Linguagem: Python 3.x
 - Ferramentas: VS Code
+- Versionamento: Git (Estratégia de Branches para histórico de evolução)
 - Modelagem: Draw.io (para o fluxograma)
 
 ## Autores
