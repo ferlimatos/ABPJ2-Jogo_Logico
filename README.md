@@ -73,6 +73,7 @@ Aqui, o objetivo foi aplicar princípios de Clean Code para tornar o programa ma
 
 ## Como Executar o Projeto
 
+
 1.  Certifique-se de ter o **Python 3.x** instalado.
 2.  Faça o download ou clone este repositório.
 3.  Navegue até a pasta do projeto.
@@ -84,7 +85,14 @@ Aqui, o objetivo foi aplicar princípios de Clean Code para tornar o programa ma
 - Ferramentas: VS Code
 - Versionamento: Git (Estratégia de Branches para histórico de evolução)
 - Modelagem: Draw.io (para o fluxograma)
+## Tecnologias Utilizadas
+
+- Linguagem: Python 3.x
+- Ferramentas: VS Code
+- Versionamento: Git (Estratégia de Branches para histórico de evolução)
+- Modelagem: Draw.io (para o fluxograma)
 
 ## Autores
+
 
 **Fernanda Matos** – Desenvolvimento Web e Mobile – Python Iniciante.
