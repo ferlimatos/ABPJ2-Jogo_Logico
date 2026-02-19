@@ -12,7 +12,7 @@ perguntas = [
             "D) Um tipo de banco de dados"
         ],
         "resposta": "B",
-        "pontos": 10
+        "pontos": 20
     },
     {
        "enunciado": "Qual das opções abaixo cria corretamente uma variável inteira em Python?",
@@ -23,7 +23,7 @@ perguntas = [
             "D) let numero = 5"
        ],
        "resposta": "B",
-       "pontos": 10
+       "pontos": 20
     },
     {
         "enunciado": "Qual é o tipo da variável x = 3.14?",
@@ -34,7 +34,7 @@ perguntas = [
             "D) boolean"
         ],
         "resposta": "B",
-        "pontos": 10
+        "pontos": 20
     },
     {
         "enunciado": "Quando usamos o operador >=, o que estamos verificando?",
@@ -45,7 +45,7 @@ perguntas = [
             "D) Se dois valores são diferentes"
         ],
         "resposta": "C",
-        "pontos": 30
+        "pontos": 20
     },
     {
         "enunciado": "O operador lógico OR retorna verdadeiro quando:",
@@ -56,7 +56,7 @@ perguntas = [
             "D) Nenhuma condição é avaliada"
         ],
         "resposta": "B",
-        "pontos": 10
+        "pontos": 20
     }
 ]
 
