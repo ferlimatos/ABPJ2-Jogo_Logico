@@ -52,14 +52,14 @@ O fluxo agora conta com uma estrutura de repetição que valida cada pergunta an
 ## Evolução e Aprendizados
 O projeto foi desenvolvido em etapas para demonstrar a transição de uma lógica sequencial para um código limpo e otimizado.
 
-### 🔹 Fase 1: Lógica Linear e Condicionais (v1-sequencial)
+### Fase 1: Lógica Linear e Condicionais (v1-sequencial)
 Nesta etapa inicial, o foco foi dominar os fundamentos da linguagem:
 
 - Controle de Fluxo: Implementação de árvores de decisão com if/elif/else e operadores lógicos para validar respostas.
 - Tratamento de Dados: Uso de métodos de string como .upper() para garantir que a entrada do usuário não quebrasse o programa, independentemente de letras maiúsculas ou minúsculas.
 - Experiência do Usuário (UX): Uso de sequências de escape (\n) para melhorar a legibilidade das mensagens no console.
 
-### 🔹 Fase 2: Refatoração e Escalabilidade (v2-main)
+### Fase 2: Refatoração e Escalabilidade (v2-main)
 Aqui, o objetivo foi aplicar princípios de Clean Code para tornar o programa mais curto e fácil de manter:
 
 - Estruturas Compostas: Substituí múltiplas variáveis isoladas por Dicionários e Listas. Isso permitiu centralizar as perguntas e respostas em um único lugar.
@@ -72,27 +72,16 @@ Aqui, o objetivo foi aplicar princípios de Clean Code para tornar o programa ma
 - Aprendi que um código "funcional" nem sempre é um código "bom", e que a refatoração é uma parte essencial da vida de um programador.
 
 ## Como Executar o Projeto
-
-
 1.  Certifique-se de ter o **Python 3.x** instalado.
 2.  Faça o download ou clone este repositório.
 3.  Navegue até a pasta do projeto.
 4.  Execute o comando: `python main.py`.
 
 ## Tecnologias Utilizadas
-
-- Linguagem: Python 3.x
-- Ferramentas: VS Code
-- Versionamento: Git (Estratégia de Branches para histórico de evolução)
-- Modelagem: Draw.io (para o fluxograma)
-## Tecnologias Utilizadas
-
 - Linguagem: Python 3.x
 - Ferramentas: VS Code
 - Versionamento: Git (Estratégia de Branches para histórico de evolução)
 - Modelagem: Draw.io (para o fluxograma)
 
 ## Autores
-
-
 **Fernanda Matos** – Desenvolvimento Web e Mobile – Python Iniciante.
