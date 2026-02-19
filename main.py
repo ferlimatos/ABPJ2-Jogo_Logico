@@ -1,6 +1,14 @@
 pontuacao = 0 # Variável para armazenar a pontuação do usuário
 pontuacao_mínima = 80 # Pontuação mínima necessária para aprovação
 
+print("Olá, seja bem-vindo!\n\n"
+      "O Quiz de Python foi criado para que você possa testar seus conhecimentos sobre os conceitos básicos da linguagem por meio de 5 perguntas de múltipla escolha.\n\n"
+      "Cada questão vale 20 pontos, totalizando 100 pontos possíveis.\n\n"
+      "- Se você obtiver 80 pontos ou mais, estará APROVADO!\n"
+      "- Se fizer entre 40 e 79 pontos, ficará de RECUPERAÇÃO. Nesse caso será necessário realizar atividades extras para melhorar sua nota.\n"
+      "- Se obtiver 20 pontos ou menos, infelizmente estará REPROVADO e precisará refazer o quiz.\n\n"
+      "Boa sorte!")
+
 # Estrutura de perguntas e respostas
 perguntas = [
     {
@@ -88,3 +96,5 @@ elif pontuacao < pontuacao_mínima and pontuacao >= 40:
   print("Você está de recuperação.")
 else:
   print("Infelizmente, você foi reprovado.")
+
+print("Obrigado por participar do quiz!")
